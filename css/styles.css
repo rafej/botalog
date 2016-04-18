@@ -1,0 +1,11 @@
+.col s4{
+	float: left;
+
+}
+.card {
+	width: 100%;
+	height: 120px;
+	margin: 10px;
+	float: left;
+	display: inline-block;
+}
