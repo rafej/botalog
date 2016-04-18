@@ -1,0 +1,72 @@
+{
+  "bots": [
+    {
+      "name": "CNN",
+      "link": "https://m.me/cnn",
+      "chat_id": "cnn",
+      "author": "CNN",
+      "author_link": "https://cnn.com",
+      "description": "Recommends news stories that became personalized over time as it learns your interests.",
+      "rating": -1,
+      "categories": [
+        "productivity",
+        "media"
+      ],
+      "tags": [
+        "news",
+        "cnn"
+      ]
+    },
+    {
+      "name": "Wall Street Journal",
+      "link": "https://m.me/wsj",
+      "chat_id": "8304333127",
+      "author": "CNN",
+      "author_link": "https://wsj.com",
+      "description": "WSJ Messenger brings you breaking business news, investigative reporting and markets coverage from the award-winning WSJ newsroom.",
+      "rating": -1,
+      "categories": [
+        "productivity",
+        "media"
+      ],
+      "tags": [
+        "news",
+        "wsj",
+        "stocks"
+      ]
+    },
+    {
+      "name": "Poncho",
+      "link": "https://m.me/hiponcho",
+      "chat_id": "788720331154519",
+      "author": "Poncho",
+      "author_link": "http://poncho.is",
+      "description": "Personalized weather forecasts that will make you smile whatever the weather.",
+      "rating": -1,
+      "categories": [
+        "productivity",
+        "on_demand"
+      ],
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "name": "1-800-Flowers",
+      "link": "https://m.me/1800flowers",
+      "chat_id": "1657139874551250",
+      "author": "1-800 Flowers",
+      "author_link": "http://www.1800flowers.com/",
+      "description": "Order flowers from Messenger.",
+      "rating": -1,
+      "categories": [
+        "on_demand"
+      ],
+      "tags": [
+        "flowers",
+        "gifts"
+      ]
+    }
+  ]
+}
