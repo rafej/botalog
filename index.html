@@ -10,39 +10,17 @@
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     </head>
     <body ng-controller="MainController">
         <div class="container">
             <div class="header">
                 <h1>botalog</h1>
                 <h4 class="flow-text">A hub for all of your Messenger botting needs.</h4>
-                <div class="row">
-                    <div class="col s4">
-                        <input type="checkbox" name="games" id="games" class="filled-in" />
-                        <label for="games">Games</label>
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Productivity" id="productivity" class="filled-in" /> 
-                        <label for="productivity">Productivity</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="onDemand" id="onDemand" class="filled-in" /> 
-                        <label for="onDemand">On Demand</label> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <input type="checkbox" name="Fun" id="fun" class="filled-in" /> 
-                        <label for="fun">Fun</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Media" id="media" class="filled-in" /> 
-                        <label for="media">Media</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Money" id="money" class="filled-in" /> 
-                        <label for="money">Money</label>
+                <div class="row" ng-repeat="chunk in chunkedCategories">
+                    <div class="col s4" ng-repeat="category in chunk">
+                        <input type="checkbox" name="{{ category }}" class="filled-in" ng-model="categories[category]"/>
+                        <label for="{{ category }}">{{ category | pretty }}</label>
                     </div>
                 </div>
                 <div class="input-field">
