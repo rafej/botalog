@@ -16,7 +16,7 @@
         <div class="container">
             <div class="header">
                 <h1>botalog</h1>
-                <h4 class="h4head">A hub for all of your Messenger botting needs.</h4>
+                <h4 class="flow-text">A hub for all of your Messenger botting needs.</h4>
                 <div class="row">
                     <div class="col s4">
                         <input type="checkbox" name="games" id="games" class="filled-in" />
@@ -53,24 +53,25 @@
             </div>
 
             <div class="row white z-depth-1" ng-repeat="bot in bots">
-                <div class="col m3">
+                <div class="col s12 m3">
                     <div class="name">
                         <h4>{{ bot.name }}</h4>
                         <span class="author"><a ng-href="{{ bot.author_link }}">by {{ bot.author }}</a></span>
                     </div>
                 </div>
-                <div class="col m8">
+                <div class="col s12 m8">
                     <div>
                         <p>{{ bot.description }}</p>
                     </div>
                 </div>
-                <div class="col s1">
-                    <div class="seeInMsg">
-                        <a ng-href="{{ bot.link }}" target="_blank"><img class="fb-messenger-icon" src="assets/facebook-messenger.svg"></img></a>
-                        <span class="open-with-messenger"><a ng-href="{{bot.link}}" target="_blank">Chat within Messenger!</a></span>
-                    </div>
+                <div class="col s12 m1">
+                    <a ng-href="{{ bot.link }}" target="_blank"><img class="fb-messenger-icon" src="assets/facebook-messenger.svg"></img></a>
+                    <span class="open-with-messenger right"><a ng-href="{{bot.link}}" target="_blank">Chat within Messenger!</a></span>
                 </div>
             </div>
+
+            <hr>
+            <p class="center">Made with <span class="pink-text lighten-1">&hearts;</span> by <a href="http://rafe.io">@rafej</a> and <a href="https://harrison.tech">@paked</a>.</p>
         </div>
 
         <script src="main.js"></script>
