@@ -46,13 +46,13 @@
                     </div>
                 </div>
                 <div class="input-field">
-                    <input id="search" type="search" required >
+                    <input id="search" type="search" ng-model="searchText">
                     <label for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
                 </div>
             </div>
 
-            <div class="row white z-depth-1" ng-repeat="bot in bots">
+            <div class="row white z-depth-1" ng-repeat="bot in bots | filter:searchText">
                 <div class="col s12 m3">
                     <div class="name">
                         <h4>{{ bot.name }}</h4>
