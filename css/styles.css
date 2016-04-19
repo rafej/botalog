@@ -1,7 +1,29 @@
+@font-face {
+	font-family: Perfograma;
+	src: url(assets/Perfograma.otf);
+}
+@font-face {
+	font-family: Quicksand-Dashed;
+	src: url(assets/Quicksand-Light.otf);
+}
+@font-face {
+	font-family: Quicksand;
+	src: url(assets/Quicksand_Dash.otf);
+}
 .border {
     height: 100%;
 }
-
+.open {
+	font-size: 1.0em;
+	margin-left: 0px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	float: left;
+	right: 30px;
+	position: relative;
+}
 .border > div {
     height: 100%;
 
@@ -11,12 +33,24 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+h1 {
+	font-family: Quicksand;
+	font-weight: 500;
+}
+h4 {
+	font-family: Roboto-Light;
+
+}
+ .h4head {
+	font-size: 2.0em;
+	margin-bottom: 20.5px;
+}
 
 .border > div > p {
     height: 100%;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 	.card {
 		height: 300px;
 	}
@@ -24,11 +58,43 @@
 		border-right: none;
 	}
 	.name { 
-	border-right: none; }
+		border-right: none;
+	}
+	.fb-messenger-icon {
+    	display: none;
+    }
+}
+.open-with-messenger {
+	font-size: 1.0em;
+	margin-left: 0px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	float: left;
+	right: 0px;
+	position: relative;
+    display: none;
+
+}
+.author {
+	margin-bottom: 0px;
+}
+
 	
+}
+.author {
+	margin-bottom: 15px;
+	float: left;
 }
 
 .fb-messenger-icon {
     margin-top: 15%;
     width: 100%;
+    float: left;
+    position: relative;
+    right: 10px;
+}
+p {
+	font-size: 1.4em;
 }
