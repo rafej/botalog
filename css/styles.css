@@ -8,7 +8,7 @@
 }
 @font-face {
 	font-family: Quicksand;
-	src: url(assets/Quicksand_Dash.otf);
+	src: url(assets/Quicksand-Light.otf);
 }
 .border {
     height: 100%;
@@ -63,19 +63,18 @@ h4 {
 	.fb-messenger-icon {
     	display: none;
     }
+    .open-with-messenger {
+    	display: initial !important;
+    }
 }
 .open-with-messenger {
 	font-size: 1.0em;
 	margin-left: 0px;
 	text-align: center;
-	display: inline-block;
+	display: none;
 	margin-top: 5px;
 	margin-bottom: 15px;
-	float: left;
-	right: 0px;
 	position: relative;
-    display: none;
-
 }
 .author {
 	margin-bottom: 0px;
