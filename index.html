@@ -9,7 +9,7 @@
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     </head>
     <body ng-controller="MainController">
@@ -18,8 +18,8 @@
                 <h1>botalog</h1>
                 <h4 class="flow-text">A hub for all of your Messenger botting needs.</h4>
                 <div class="row" ng-repeat="chunk in chunkedCategories">
-                    <div class="col s4" ng-repeat="category in chunk">
-                        <input type="checkbox" name="{{ category }}" class="filled-in" ng-model="categories[category]"/>
+                    <div class="col s4" ng-repeat="category in chunk" ng-click="toggle(category)">
+                        <input type="checkbox" name="{{ category }}" class="filled-in" ng-model="categories.selected[category]" ng-true-value="true" ng-false-value="false"/>
                         <label for="{{ category }}">{{ category | pretty }}</label>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="row white z-depth-1" ng-repeat="bot in bots | filter:searchText">
+            <div class="row white z-depth-1" ng-repeat="bot in bots | filter:searchText | filter:applicable">
                 <div class="col s12 m3">
                     <div class="name">
                         <h4>{{ bot.name }}</h4>

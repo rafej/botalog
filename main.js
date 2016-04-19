@@ -18,11 +18,12 @@ app.controller('MainController', ['$scope', '$http', function($scope, $http) {
     'productivity',
     'on_demand',
     'fun',
+    'media',
     'money'
   ];
 
   $scope.chunkedCategories = chunk(categories, 3);
-  $scope.categories = {};
+  $scope.categories = { selected: {}};
 
   $scope.bots = [];
 
@@ -32,6 +33,39 @@ app.controller('MainController', ['$scope', '$http', function($scope, $http) {
     });
 
   $scope.applicable = function(bot) {
+    var noneSelected = true;
+    for (var i = 0; i < categories.length; i++) {
+      var category = $scope.categories.selected[categories[i]];
+      if (category) {
+        noneSelected = false;
+        break;
+      }
+    }
+
+    if (noneSelected) {
+      return true;
+    }
+
+    for (var i = 0; i < bot.categories.length; i++) {
+      var category = $scope.categories.selected[bot.categories[i]];
+      if (category) {
+        return true;
+      }
+
+      console.log(category);
+    }
+
+    return false;
+  }
+
+  $scope.toggle = function(category) {
+    console.log('wooo');
+    if ($scope.categories.selected[category] == undefined) {
+      $scope.categories.selected[category] = true;
+      return;
+    }
+
+    $scope.categories.selected[category] = !$scope.categories.selected[category];
   }
 }]);
 
