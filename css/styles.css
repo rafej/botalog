@@ -4,11 +4,11 @@
 }
 @font-face {
 	font-family: Quicksand-Dashed;
-	src: url(assets/Quicksand-Light.otf);
+	src: url(../assets/Quicksand-Light.otf);
 }
 @font-face {
 	font-family: Quicksand;
-	src: url(assets/Quicksand-Light.otf);
+	src: url(../assets/Quicksand-Light.otf);
 }
 .border {
     height: 100%;
@@ -38,8 +38,8 @@ h1 {
 	font-weight: 500;
 }
 h4 {
-	font-family: Roboto-Light;
-
+	font-family: Roboto;
+    font-weight: 300;
 }
  .h4head {
 	font-size: 2.0em;
