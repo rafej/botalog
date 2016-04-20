@@ -67,6 +67,70 @@
         "flowers",
         "gifts"
       ]
-    }
+    }, 
+    {
+      "name": "Sequel Stories",
+      "link": "m.me/storiesonsequel",
+      "chat_id": "1657139874551250",
+      "author": "Sequel",
+      "author_link": "http://www.onsequel.com/",
+      "description": "Choose your own adventure and discover romance, comedy, horror, and mystery!",
+      "rating": -1,
+      "categories:": [
+      "fun",
+      "media"],
+      "tags": [
+      "story",
+      "mystery",
+      "adventure"]
+    },
+    {
+    "name": "HP Print Bot",
+    "link": "m.me/HPPrintBot",
+    "chat_id": "529146230607116",
+    "author": "HP",
+    "author_link": "https://hp.com",
+    "description": "The HP Print Bot allows users to easily print content directly from a Facebook Messenger conversation.",
+    "rating": -1,
+    "categories": [
+    "productivity"
+    ],
+    "tags": [
+    "HP",
+    "print",
+    "useful",
+    "productivity"]
+  },
+  {
+    "name": "Operator",
+    "link": "http://m.me/operatorapp",
+    "chat_id": "524897890920508",
+    "author" : "Operator",
+    "author_link": "https://operator.com",
+    "description": "Operator is the easiest way to shop! Send us a text and our experts provide personalized recommendations—for free!",
+    "rating": -1,
+    "categories": [
+    
+    "money"
+    ],
+    "tags": [
+    "shopping",
+    "personal",
+    "shop"]
+
+  },
+  {
+    "name": "Assist",
+    "link": "m.me/assist",
+    "chat_id": "872518112766096",
+    "author": "Assist",
+    "author_link": "http://assi.st/",
+    "description": "No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
+    "rating": -1,
+    "categories": [
+    ""]
+
+  }
+
   ]
 }
