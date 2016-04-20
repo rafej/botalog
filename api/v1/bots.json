@@ -188,7 +188,8 @@
          "description":"Zork is one of the earliest interactive fiction computer games now on Facebook Messenger!",
          "rating":-1,
          "categories":[  
-            "fun"
+            "fun",
+            "games"
          ],
          "tags":[  
             "text",
@@ -206,6 +207,7 @@
          "description":"Assist Detective Kees in solving murders as part of the Criminal Investigation Unit. Message and start chatting!",
          "rating":-1,
          "categories":[  
+            "games",
             "fun"
          ],
          "tags":[  
