@@ -46,8 +46,10 @@
                     </div>
                 </div>
                 <div class="col s12 m1">
-                    <a ng-href="{{ bot.link }}" target="_blank"><img alt="Chat within Messenger!" class="fb-messenger-icon" src="assets/facebook-messenger.svg"/></a>
-                    <span class="open-with-messenger right"><a ng-href="{{bot.link}}" target="_blank">Chat within Messenger!</a></span>
+                   
+                    <span class="open-with-messenger right"><a ng-href="{{bot.link}}" ng-show="{{bot.request_access_link != undefined"}} target="_blank">Chat within Messenger!</a></span>
+                    <span class="open-with-messenger right"><a ng-href="{{bot.request_access_link}}" target="_blank">Request Messenger Access!</a></span>
+
                 </div>
             </div>
 
