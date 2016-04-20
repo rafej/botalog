@@ -76,103 +76,104 @@
       "author_link": "http://www.onsequel.com/",
       "description": "Choose your own adventure and discover romance, comedy, horror, and mystery!",
       "rating": -1,
-      "categories:": [
-      "fun",
-      "media"],
+      "categories": [
+        "fun",
+        "media"
+      ],
       "tags": [
-      "story",
-      "mystery",
-      "adventure"]
+        "story",
+        "mystery",
+        "adventure"
+      ]
     },
     {
-    "name": "HP Print Bot",
-    "link": "m.me/HPPrintBot",
-    "chat_id": "529146230607116",
-    "author": "HP",
-    "author_link": "https://hp.com",
-    "description": "The HP Print Bot allows users to easily print content directly from a Facebook Messenger conversation.",
-    "rating": -1,
-    "categories": [
-    "productivity"
-    ],
-    "tags": [
-    "HP",
-    "print",
-    "useful",
-    "productivity"]
-  },
-  {
-    "name": "Operator",
-    "link": "http://m.me/operatorapp",
-    "chat_id": "524897890920508",
-    "author" : "Operator",
-    "author_link": "https://operator.com",
-    "description": "Operator is the easiest way to shop! Send us a text and our experts provide personalized recommendations—for free!",
-    "rating": -1,
-    "categories": [
-    
-    "money"
-    ],
-    "tags": [
-    "shopping",
-    "personal",
-    "shop"]
+      "name": "HP Print Bot",
+      "link": "m.me/HPPrintBot",
+      "chat_id": "529146230607116",
+      "author": "HP",
+      "author_link": "https://hp.com",
+      "description": "The HP Print Bot allows users to easily print content directly from a Facebook Messenger conversation.",
+      "rating": -1,
+      "categories": [
+        "productivity"
+      ],
+      "tags": [
+        "HP",
+        "print",
+        "useful",
+        "productivity"]
+    },
+    {
+      "name": "Operator",
+      "link": "http://m.me/operatorapp",
+      "chat_id": "524897890920508",
+      "author" : "Operator",
+      "author_link": "https://operator.com",
+      "description": "Operator is the easiest way to shop! Send us a text and our experts provide personalized recommendations—for free!",
+      "rating": -1,
+      "categories": [
+        "money"
+      ],
+      "tags": [
+        "shopping",
+        "personal",
+        "shop"]
 
-  },
-  {
-    "name": "Assist",
-    "link": "m.me/assist",
-    "chat_id": "872518112766096",
-    "author": "Assist",
-    "author_link": "http://assi.st/",
-    "description": "No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
-    "rating": -1,
-    "categories": [
-    "on_demand",
-    "productivity",
-    "money",
-    "fun"],
-    "tags": [
-    "assistant",
-    "productive",
-    "personal",
-    "apps"]
+    },
+    {
+      "name": "Assist",
+      "link": "m.me/assist",
+      "chat_id": "872518112766096",
+      "author": "Assist",
+      "author_link": "http://assi.st/",
+      "description": "No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
+      "rating": -1,
+      "categories": [
+        "on_demand",
+        "productivity",
+        "money",
+        "fun"],
+        "tags": [
+          "assistant",
+          "productive",
+          "personal",
+          "apps"]
 
-  },
-  {
-    "name": "Sure",
-    "link": "m.me/besure.io",
-    "chat_id": "108951326118793",
-    "author": "Sure",
-    "author_link": "http://besure.io/",
-    "description": "Say 'Hi' on Facebook Messenger and instantly find businesses that match your values.",
-    "rating": -1,
-    "categories": [
-    "on_demand",
-    "productivity",
-    "money"
-    ],
-    "tags": [
-    "sustainable",
-    "values",
-    "businesses"]
-  },
-  {
-    "name": "Miss Piggy",
-    "link": "m.me/MuppetsMissPiggy",
-    "chat_id": "131857043542156",
-    "author": "the Muppets",
-    "author_link": "https://www.facebook.com/MuppetsMissPiggy/",
-    "description":"Talk to Miss Piggy from the Muppets on Facebook Messenger!",
-    "rating": -1,
-    "categories": [
-    "fun"
-    ],
-    "tags": [
-    "Muppets",
-    "funny",
-    "Disney",
-    "unique"] 
+    },
+    {
+      "name": "Sure",
+      "link": "m.me/besure.io",
+      "chat_id": "108951326118793",
+      "author": "Sure",
+      "author_link": "http://besure.io/",
+      "description": "Say 'Hi' on Facebook Messenger and instantly find businesses that match your values.",
+      "rating": -1,
+      "categories": [
+        "on_demand",
+        "productivity",
+        "money"
+      ],
+      "tags": [
+        "sustainable",
+        "values",
+        "businesses"]
+    },
+    {
+      "name": "Miss Piggy",
+      "link": "m.me/MuppetsMissPiggy",
+      "chat_id": "131857043542156",
+      "author": "the Muppets",
+      "author_link": "https://www.facebook.com/MuppetsMissPiggy/",
+      "description":"Talk to Miss Piggy from the Muppets on Facebook Messenger!",
+      "rating": -1,
+      "categories": [
+        "fun"
+      ],
+      "tags": [
+        "Muppets",
+        "funny",
+        "Disney",
+        "unique"] 
     },
     {
       "name": "Zork",
@@ -183,12 +184,12 @@
       "description": "Zork is one of the earliest interactive fiction computer games now on Facebook Messenger!",
       "rating": -1,
       "categories": [
-      "fun"],
-      "tags": [
-      "text",
-      "adventure",
-      "game",
-      "retro"]
+        "fun"],
+        "tags": [
+          "text",
+          "adventure",
+          "game",
+          "retro"]
     },
     {
       "name": "Detective Kees",
@@ -199,11 +200,11 @@
       "description": "Assist Detective Kees in solving murders as part of the Criminal Investigation Unit. Message and start chatting!",
       "rating": -1,
       "categories": [
-      "fun"],
-      "tags":[
-      "game",
-      "adventure",
-      "crime"]
+        "fun"],
+        "tags":[
+          "game",
+          "adventure",
+          "crime"]
     },
     {
       "name": "Hudson",
@@ -214,15 +215,15 @@
       "description": "Start the day with an update from Hudson... news, weather, and a video for the commute.",
       "rating": -1,
       "categories": [
-      "productivity",
-      "fun",
-      "media"],
-      "tags": [
-      "weather",
-      "update",
-      "news",
-      "video",
-      "day"]
+        "productivity",
+        "fun",
+        "media"],
+        "tags": [
+          "weather",
+          "update",
+          "news",
+          "video",
+          "day"]
 
     }
 

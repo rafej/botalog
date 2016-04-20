@@ -47,6 +47,7 @@ app.controller('MainController', ['$scope', '$http', function($scope, $http) {
     }
 
     for (var i = 0; i < bot.categories.length; i++) {
+      console.log(i, bot.name, bot.categories)
       var category = $scope.categories.selected[bot.categories[i]];
       if (category) {
         return true;
