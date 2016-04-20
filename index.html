@@ -45,12 +45,17 @@
                         <p>{{ bot.description }}</p>
                     </div>
                 </div>
-                <div class="col s12 m1">
-                    <a ng-href="{{ bot.link }}" target="_blank"><img alt="Chat within Messenger!" class="fb-messenger-icon" src="assets/facebook-messenger.svg"/></a>
-                    <span class="open-with-messenger right"><a ng-href="{{bot.link}}"  target="_blank">Chat within Messenger!</a></span>
-                    <span class="open-with-messenger right"><a ng-href="{{bot.request_access_link}}" ng-show="bot.request_access_link != undefined" target="_blank">Request Messenger Access!</a></span>
+                 <div class="col s12 m1">
+                    <div ng-show="bot.request_access_link == undefined">
+                        <a ng-href="{{ bot.link }}" target="_blank"><img alt="Chat within Messenger!" class="fb-messenger-icon" src="assets/facebook-messenger.svg"/></a>
+                        <span class="open-with-messenger right"><a ng-href="{{bot.link}}" target="_blank">Chat within Messenger!</a></span>
+                    </div>
 
+                    <div ng-show="bot.request_access_link != undefined">
+                        <span class="center"><a ng-href="{{ bot.request_access_link }}">Request access!</a></span>
+                    </div>
                 </div>
+            </div>
             </div>
 
             <hr>

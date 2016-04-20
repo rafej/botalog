@@ -236,6 +236,27 @@
            "video",
            "day"
          ]
+    },
+    {
+      "name": "MemeMaker",
+      "link": "http://m.me/471938779682159",
+      "chat_id": "471938779682159",
+      "author": "Harrison Shoebridge",
+      "author_link": "http://harrison.tech",
+      "request_access_link": "https://www.facebook.com/permalink.php?story_fbid=473383312871039&id=471938779682159",
+      "description": "Create awesome macros on the fly, all you need is a picture and a line of text.",
+      "rating": -1,
+      "categories": [
+        "fun",
+        "on_demand"
+      ],
+      "tags": [
+        "memes",
+        "funny",
+        "jokes",
+        "gandalf"
+      ]
     }
+
   ]
 }
