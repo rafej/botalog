@@ -7,52 +7,30 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     </head>
     <body ng-controller="MainController">
         <div class="container">
             <div class="header">
                 <h1>botalog</h1>
                 <h4 class="flow-text">A hub for all of your Messenger botting needs.</h4>
-                <div class="row">
-                    <div class="col s4">
-                        <input type="checkbox" name="games" id="games" class="filled-in" />
-                        <label for="games">Games</label>
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Productivity" id="productivity" class="filled-in" /> 
-                        <label for="productivity">Productivity</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="onDemand" id="onDemand" class="filled-in" /> 
-                        <label for="onDemand">On Demand</label> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s4">
-                        <input type="checkbox" name="Fun" id="fun" class="filled-in" /> 
-                        <label for="fun">Fun</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Media" id="media" class="filled-in" /> 
-                        <label for="media">Media</label> 
-                    </div>
-                    <div class="col s4">
-                        <input type="checkbox" name="Money" id="money" class="filled-in" /> 
-                        <label for="money">Money</label>
+                <div class="row" ng-repeat="chunk in chunkedCategories">
+                    <div class="col s4" ng-repeat="category in chunk" ng-click="toggle(category)">
+                        <input type="checkbox" name="{{ category }}" class="filled-in" ng-model="categories.selected[category]" ng-true-value="true" ng-false-value="false"/>
+                        <label for="{{ category }}">{{ category | pretty }}</label>
                     </div>
                 </div>
                 <div class="input-field">
-                    <input id="search" type="search" required >
+                    <input id="search" type="search" ng-model="searchText">
                     <label for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
                 </div>
             </div>
 
-            <div class="row white z-depth-1" ng-repeat="bot in bots">
+            <div class="row white z-depth-1" ng-repeat="bot in bots | filter:searchText | filter:applicable">
                 <div class="col s12 m3">
                     <div class="name">
                         <h4>{{ bot.name }}</h4>
@@ -65,13 +43,13 @@
                     </div>
                 </div>
                 <div class="col s12 m1">
-                    <a ng-href="{{ bot.link }}" target="_blank"><img class="fb-messenger-icon" src="assets/facebook-messenger.svg"></img></a>
+                    <a ng-href="{{ bot.link }}" target="_blank"><img alt="Chat within Messenger!" class="fb-messenger-icon" src="assets/facebook-messenger.svg"/></a>
                     <span class="open-with-messenger right"><a ng-href="{{bot.link}}" target="_blank">Chat within Messenger!</a></span>
                 </div>
             </div>
 
             <hr>
-            <p class="center">Made with <span class="pink-text lighten-1">&hearts;</span> by <a href="http://rafe.io">@rafej</a> and <a href="https://harrison.tech">@paked</a>.</p>
+            <p class="center grey-text text-darken-3">Made with <span class="pink-text text-lighten-3">&hearts;</span> by <a href="http://rafe.io">@rafej</a> and <a href="https://harrison.tech">@paked</a>.</p>
         </div>
 
         <script src="main.js"></script>

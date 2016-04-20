@@ -21,7 +21,7 @@
       "name": "Wall Street Journal",
       "link": "https://m.me/wsj",
       "chat_id": "8304333127",
-      "author": "CNN",
+      "author": "WSJ",
       "author_link": "https://wsj.com",
       "description": "WSJ Messenger brings you breaking business news, investigative reporting and markets coverage from the award-winning WSJ newsroom.",
       "rating": -1,
@@ -128,9 +128,103 @@
     "description": "No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
     "rating": -1,
     "categories": [
-    ""]
+    "on_demand",
+    "productivity",
+    "money",
+    "fun"],
+    "tags": [
+    "assistant",
+    "productive",
+    "personal",
+    "apps"]
 
-  }
+  },
+  {
+    "name": "Sure",
+    "link": "m.me/besure.io",
+    "chat_id": "108951326118793",
+    "author": "Sure",
+    "author_link": "http://besure.io/",
+    "description": "Say 'Hi' on Facebook Messenger and instantly find businesses that match your values.",
+    "rating": -1,
+    "categories": [
+    "on_demand",
+    "productivity",
+    "money"
+    ],
+    "tags": [
+    "sustainable",
+    "values",
+    "businesses"]
+  },
+  {
+    "name": "Miss Piggy",
+    "link": "m.me/MuppetsMissPiggy",
+    "chat_id": "131857043542156",
+    "author": "the Muppets",
+    "author_link": "https://www.facebook.com/MuppetsMissPiggy/",
+    "description":"Talk to Miss Piggy from the Muppets on Facebook Messenger!",
+    "rating": -1,
+    "categories": [
+    "fun"
+    ],
+    "tags": [
+    "Muppets",
+    "funny",
+    "Disney",
+    "unique"] 
+    },
+    {
+      "name": "Zork",
+      "link": "m.me/playzork",
+      "chat_id": "1719782408257646",
+      "author": "Zork",
+      "author_link": "https://www.facebook.com/playzork/",
+      "description": "Zork is one of the earliest interactive fiction computer games now on Facebook Messenger!",
+      "rating": -1,
+      "categories": [
+      "fun"],
+      "tags": [
+      "text",
+      "adventure",
+      "game",
+      "retro"]
+    },
+    {
+      "name": "Detective Kees",
+      "link": "m.me/detectivekees",
+      "chat_id": "618001051709790",
+      "author": "Sequel",
+      "author_link": "http://www.onsequel.com",
+      "description": "Assist Detective Kees in solving murders as part of the Criminal Investigation Unit. Message and start chatting!",
+      "rating": -1,
+      "categories": [
+      "fun"],
+      "tags":[
+      "game",
+      "adventure",
+      "crime"]
+    },
+    {
+      "name": "Hudson",
+      "link": "m.me/hudsonapp",
+      "chat_id": "1123710847647047",
+      "author": "Hudson",
+      "author_link": "http://gethudson.com/",
+      "description": "Start the day with an update from Hudson... news, weather, and a video for the commute.",
+      "rating": -1,
+      "categories": [
+      "productivity",
+      "fun",
+      "media"],
+      "tags": [
+      "weather",
+      "update",
+      "news",
+      "video",
+      "day"]
+
+    }
 
   ]
 }
