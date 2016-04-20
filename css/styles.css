@@ -66,6 +66,9 @@ h4 {
     .open-with-messenger {
     	display: initial !important;
     }
+    .line {
+	display: !important none;
+}
 }
 .open-with-messenger {
 	font-size: 1.0em;
@@ -95,3 +98,4 @@ h4 {
 p {
 	font-size: 1.4em;
 }
+
