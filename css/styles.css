@@ -67,20 +67,20 @@ h4 {
     	display: initial !important;
     }
     .line {
-	display: !important none;
+        display: !important none;
+    }
+    .request {
+        font-size: 1.0em;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
 }
-}
+
 .open-with-messenger {
 	font-size: 1.0em;
-	margin-left: 0px;
-	text-align: center;
 	display: none;
 	margin-top: 5px;
 	margin-bottom: 15px;
-	position: relative;
-}
-.author {
-	margin-bottom: 0px;
 }
 
 .author {
@@ -89,13 +89,14 @@ h4 {
 }
 
 .fb-messenger-icon {
-    margin-top: 15%;
-    width: 100%;
-    float: left;
-    position: relative;
-    right: 10px;
+    max-width: 50%;
+    margin-top: 1vw;
 }
+
+.request {
+    margin-top: 1vw;
+}
+
 p {
 	font-size: 1.4em;
 }
-
