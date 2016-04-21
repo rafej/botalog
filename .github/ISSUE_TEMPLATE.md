@@ -9,6 +9,7 @@ Greetings. This template is for people submitting their bot to the index, if you
 - The description of the bot:
 - Some categories which apply to the bot (can be either `game`, `productivity`, `on demand`, `fun`, `media`, or `money`):
 - Some relevant tags/keywords which apply to the bot (can be whatever you want to make your bot more searchable):
+- If the bot has not been officially accepted by Facebook, a link where people can comment to become testers (eg. https://www.facebook.com/permalink.php?story_fbid=473383312871039&id=471938779682159):
 
 If you've completed these steps you're ready to go, also:
 ![this gag is much better in preview mode... trust me](https://media.giphy.com/media/3o7ZeTmU77UlPyeR2w/giphy.gif)
