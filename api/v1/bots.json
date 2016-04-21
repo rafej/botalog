@@ -275,6 +275,22 @@
         "helper",
         "Iron Man"
       ]
+    },
+    {
+      "name": "Marina Alterra",
+      "link": "https://m/me/1348805941802031",
+      "chat_id": "1348805941802031",
+      "author": "Alterra",
+      "author_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
+      "request_access_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
+      "description": "Marina Alterra is a virtual AI travel agent, a messenger bot (powered by algorithms, not humans). It helps travelers to discover where to go on vacation and book hotels there.",
+      "categories": [
+      "productivity",
+      "on_demand"],
+      "tags": [
+      "vacation",
+      "travel",
+      "AI"]
     }
   ]
 }
