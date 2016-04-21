@@ -256,7 +256,25 @@
         "jokes",
         "gandalf"
       ]
+    },
+    {
+      "name": "JARVIS on Messenger",
+      "link": "https://m.me/J.A.R.V.I.S.on.Messenger",
+      "chat_id": "J.A.R.V.I.S.on.Messenger",
+      "author": "Swapnil Agarwal",
+      "author_link": "https://www.facebook.com/swap.agarwal",
+      "request_access_link": "https://www.facebook.com/J.A.R.V.I.S.on.Messenger/posts/551338921704902",
+      "description": "Just A Rather Very Intelligent System, now on Messenger! JARVIS is a community-driven bot that aims to be as simple as possible to serve humans with their everyday tasks.",
+      "categories": [
+        "productivity",
+        "on_demand",
+        "fun"
+      ],
+      "tags": [
+        "assistant",
+        "helper",
+        "Iron Man"
+      ]
     }
-
   ]
 }
