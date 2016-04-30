@@ -291,6 +291,26 @@
       "vacation",
       "travel",
       "AI"]
+    },
+    {
+      "name": "Wally",
+      "link": "http://m.me/wallythebot",
+      "chat_id": "",
+      "author": "Mobile Media LLC",
+      "author_link": "https://wallythebot.com/",
+      "description": "Wally helps you get the most points from the credit cards you already have, and get the ones you need, to travel like a boss.",
+      "categories": [
+      "money"],
+      "tags": [
+      "money",
+      "credit cards",
+      "travel",
+      "award",
+      "flight",
+      "flying",
+      "airlines",
+      "hotels"
+      ]
     }
   ]
 }
