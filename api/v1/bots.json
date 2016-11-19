@@ -1,316 +1,380 @@
-{  
-  "bots":[  
-    {  
-      "name":"CNN",
-      "link":"https://m.me/cnn",
-      "chat_id":"cnn",
-      "author":"CNN",
-      "author_link":"https://cnn.com",
-      "description":"Recommends news stories that became personalized over time as it learns your interests.",
-      "rating":-1,
-      "categories":[  
-        "productivity",
-        "media"
-      ],
-      "tags":[  
-        "news",
-        "cnn"
-      ]
-    },
-    {  
-      "name":"Wall Street Journal",
-      "link":"https://m.me/wsj",
-      "chat_id":"8304333127",
-      "author":"WSJ",
-      "author_link":"https://wsj.com",
-      "description":"WSJ Messenger brings you breaking business news, investigative reporting and markets coverage from the award-winning WSJ newsroom.",
-      "rating":-1,
-      "categories":[  
-        "productivity",
-        "media"
-      ],
-      "tags":[  
-        "news",
-        "wsj",
-        "stocks"
-         ]
-    },
-    {  
-      "name":"Poncho",
-      "link":"https://m.me/hiponcho",
-      "chat_id":"788720331154519",
-      "author":"Poncho",
-      "author_link":"http://poncho.is",
-      "description":"Personalized weather forecasts that will make you smile whatever the weather.",
-      "rating":-1,
-      "categories":[  
-        "productivity",
-        "on_demand"
-      ],
-      "tags":[  
-        "weather",
-        "forecast"
-      ]
-    },
-    {  
-      "name":"1-800-Flowers",
-      "link":"https://m.me/1800flowers",
-      "chat_id":"1657139874551250",
-      "author":"1-800 Flowers",
-      "author_link":"http://www.1800flowers.com/",
-      "description":"Order flowers from Messenger.",
-      "rating":-1,
-      "categories":[  
-        "on_demand"
-         ],
-         "tags":[  
-           "flowers",
-           "gifts"
-         ]
-    },
-    {  
-      "name":"Sequel Stories",
-      "link":"https://m.me/storiesonsequel",
-      "chat_id":"1657139874551250",
-      "author":"Sequel",
-      "author_link":"http://www.onsequel.com/",
-      "description":"Choose your own adventure and discover romance, comedy, horror, and mystery!",
-      "rating":-1,
-      "categories":[  
-        "fun",
-        "media"
-      ],
-      "tags":[  
-        "story",
-        "mystery",
-        "adventure"
-         ]
-    },
-    {  
-      "name":"HP Print Bot",
-      "link":"https://m.me/HPPrintBot",
-      "chat_id":"529146230607116",
-      "author":"HP",
-      "author_link":"https://hp.com",
-      "description":"The HP Print Bot allows users to easily print content directly from a Facebook Messenger conversation.",
-      "rating":-1,
-      "categories":[  
-        "productivity"
-         ],
-         "tags":[  
-           "HP",
-           "print",
-           "useful",
-           "productivity"
-         ]
-    },
-    {  
-      "name":"Operator",
-      "link":"https://m.me/operatorapp",
-      "chat_id":"524897890920508",
-      "author":"Operator",
-      "author_link":"https://operator.com",
-      "description":"Operator is the easiest way to shop! Send us a text and our experts provide personalized recommendations—for free!",
-      "rating":-1,
-      "categories":[  
-        "money"
-         ],
-         "tags":[  
-           "shopping",
-           "personal",
-           "shop"
-         ]
-    },
-    {  
-      "name":"Assist",
-      "link":"https://m.me/assist",
-      "chat_id":"872518112766096",
-      "author":"Assist",
-      "author_link":"http://assi.st/",
-      "description":"No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
-      "rating":-1,
-      "categories":[  
-        "on_demand",
-        "productivity",
-        "money",
-        "fun"
-      ],
-      "tags":[  
-        "assistant",
-        "productive",
-        "personal",
-        "apps"
-      ]
-    },
-    {  
-      "name":"Sure",
-      "link":"https://m.me/besure.io",
-      "chat_id":"108951326118793",
-      "author":"Sure",
-      "author_link":"http://besure.io/",
-      "description":"Say 'Hi' on Facebook Messenger and instantly find businesses that match your values.",
-      "rating":-1,
-      "categories":[  
-        "on_demand",
-        "productivity",
-        "money"
-         ],
-         "tags":[  
-           "sustainable",
-           "values",
-           "businesses"
-         ]
-    },
-    {  
-      "name":"Miss Piggy",
-      "link":"https://m.me/MuppetsMissPiggy",
-      "chat_id":"131857043542156",
-      "author":"the Muppets",
-      "author_link":"https://www.facebook.com/MuppetsMissPiggy/",
-      "description":"Talk to Miss Piggy from the Muppets on Facebook Messenger!",
-      "rating":-1,
-      "categories":[  
-        "fun"
-         ],
-         "tags":[  
-           "Muppets",
-           "funny",
-           "Disney",
-           "unique"
-         ]
-    },
-    {  
-      "name":"Zork",
-      "link":"https://m.me/playzork",
-      "chat_id":"1719782408257646",
-      "author":"Zork",
-      "author_link":"https://www.facebook.com/playzork/",
-      "description":"Zork is one of the earliest interactive fiction computer games now on Facebook Messenger!",
-      "rating":-1,
-      "categories":[  
-        "fun",
-        "games"
-      ],
-      "tags":[  
-        "text",
-        "adventure",
-        "game",
-        "retro"
-      ]
-    },
-    {  
-      "name":"Detective Kees",
-      "link":"https://m.me/detectivekees",
-      "chat_id":"618001051709790",
-      "author":"Sequel",
-      "author_link":"http://www.onsequel.com",
-      "description":"Assist Detective Kees in solving murders as part of the Criminal Investigation Unit. Message and start chatting!",
-      "rating":-1,
-      "categories":[  
-        "games",
-        "fun"
-      ],
-      "tags":[  
-        "game",
-        "adventure",
-        "crime"
-         ]
-    },
-    {  
-      "name":"Hudson",
-      "link":"https://m.me/hudsonapp",
-      "chat_id":"1123710847647047",
-      "author":"Hudson",
-      "author_link":"http://gethudson.com/",
-      "description":"Start the day with an update from Hudson... news, weather, and a video for the commute.",
-      "rating":-1,
-      "categories":[  
-        "productivity",
-        "fun",
-        "media"
-         ],
-         "tags":[  
-           "weather",
-           "update",
-           "news",
-           "video",
-           "day"
-         ]
-    },
-    {
-      "name": "MemeMaker",
-      "link": "http://m.me/471938779682159",
-      "chat_id": "471938779682159",
-      "author": "Harrison Shoebridge",
-      "author_link": "http://harrison.tech",
-      "request_access_link": "https://www.facebook.com/permalink.php?story_fbid=473383312871039&id=471938779682159",
-      "description": "Create awesome macros on the fly, all you need is a picture and a line of text.",
-      "rating": -1,
-      "categories": [
-        "fun",
-        "on_demand"
-      ],
-      "tags": [
-        "memes",
-        "funny",
-        "jokes",
-        "gandalf"
-      ]
-    },
-    {
-      "name": "JARVIS on Messenger",
-      "link": "https://m.me/J.A.R.V.I.S.on.Messenger",
-      "chat_id": "J.A.R.V.I.S.on.Messenger",
-      "author": "Swapnil Agarwal",
-      "author_link": "https://www.facebook.com/swap.agarwal",
-      "request_access_link": "https://www.facebook.com/J.A.R.V.I.S.on.Messenger/posts/551338921704902",
-      "description": "Just A Rather Very Intelligent System, now on Messenger! JARVIS is a community-driven bot that aims to be as simple as possible to serve humans with their everyday tasks.",
-      "categories": [
-        "productivity",
-        "on_demand",
-        "fun"
-      ],
-      "tags": [
-        "assistant",
-        "helper",
-        "Iron Man"
-      ]
-    },
-    {
-      "name": "Marina Alterra",
-      "link": "https://m/me/1348805941802031",
-      "chat_id": "1348805941802031",
-      "author": "Alterra",
-      "author_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
-      "request_access_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
-      "description": "Marina Alterra is a virtual AI travel agent, a messenger bot (powered by algorithms, not humans). It helps travelers to discover where to go on vacation and book hotels there.",
-      "categories": [
-      "productivity",
-      "on_demand"],
-      "tags": [
-      "vacation",
-      "travel",
-      "AI"]
-    },
-    {
-      "name": "Wally",
-      "link": "http://m.me/wallythebot",
-      "chat_id": "",
-      "author": "Mobile Media LLC",
-      "author_link": "https://wallythebot.com/",
-      "description": "Wally helps you get the most points from the credit cards you already have, and get the ones you need, to travel like a boss.",
-      "categories": [
-      "money"],
-      "tags": [
-      "money",
-      "credit cards",
-      "travel",
-      "award",
-      "flight",
-      "flying",
-      "airlines",
-      "hotels"
-      ]
-    }
-  ]
+{
+	"bots": [{
+		"name": "CNN",
+		"link": "https://m.me/cnn",
+		"chat_id": "cnn",
+		"author": "CNN",
+		"author_link": "https://cnn.com",
+		"description": "Recommends news stories that became personalized over time as it learns your interests.",
+		"rating": -1,
+		"categories": [
+			"productivity",
+			"media"
+		],
+		"tags": [
+			"news",
+			"cnn"
+		]
+	}, {
+		"name": "Wall Street Journal",
+		"link": "https://m.me/wsj",
+		"chat_id": "8304333127",
+		"author": "WSJ",
+		"author_link": "https://wsj.com",
+		"description": "WSJ Messenger brings you breaking business news, investigative reporting and markets coverage from the award-winning WSJ newsroom.",
+		"rating": -1,
+		"categories": [
+			"productivity",
+			"media"
+		],
+		"tags": [
+			"news",
+			"wsj",
+			"stocks"
+		]
+	}, {
+		"name": "Poncho",
+		"link": "https://m.me/hiponcho",
+		"chat_id": "788720331154519",
+		"author": "Poncho",
+		"author_link": "http://poncho.is",
+		"description": "Personalized weather forecasts that will make you smile whatever the weather.",
+		"rating": -1,
+		"categories": [
+			"productivity",
+			"on_demand"
+		],
+		"tags": [
+			"weather",
+			"forecast"
+		]
+	}, {
+		"name": "1-800-Flowers",
+		"link": "https://m.me/1800flowers",
+		"chat_id": "1657139874551250",
+		"author": "1-800 Flowers",
+		"author_link": "http://www.1800flowers.com/",
+		"description": "Order flowers from Messenger.",
+		"rating": -1,
+		"categories": [
+			"on_demand"
+		],
+		"tags": [
+			"flowers",
+			"gifts"
+		]
+	}, {
+		"name": "Sequel Stories",
+		"link": "https://m.me/storiesonsequel",
+		"chat_id": "1657139874551250",
+		"author": "Sequel",
+		"author_link": "http://www.onsequel.com/",
+		"description": "Choose your own adventure and discover romance, comedy, horror, and mystery!",
+		"rating": -1,
+		"categories": [
+			"fun",
+			"media"
+		],
+		"tags": [
+			"story",
+			"mystery",
+			"adventure"
+		]
+	}, {
+		"name": "HP Print Bot",
+		"link": "https://m.me/HPPrintBot",
+		"chat_id": "529146230607116",
+		"author": "HP",
+		"author_link": "https://hp.com",
+		"description": "The HP Print Bot allows users to easily print content directly from a Facebook Messenger conversation.",
+		"rating": -1,
+		"categories": [
+			"productivity"
+		],
+		"tags": [
+			"HP",
+			"print",
+			"useful",
+			"productivity"
+		]
+	}, {
+		"name": "Operator",
+		"link": "https://m.me/operatorapp",
+		"chat_id": "524897890920508",
+		"author": "Operator",
+		"author_link": "https://operator.com",
+		"description": "Operator is the easiest way to shop! Send us a text and our experts provide personalized recommendations—for free!",
+		"rating": -1,
+		"categories": [
+			"money"
+		],
+		"tags": [
+			"shopping",
+			"personal",
+			"shop"
+		]
+	}, {
+		"name": "Assist",
+		"link": "https://m.me/assist",
+		"chat_id": "872518112766096",
+		"author": "Assist",
+		"author_link": "http://assi.st/",
+		"description": "No more searching, no need for an entire app. Assist brings the best services to your favorite messaging apps. ",
+		"rating": -1,
+		"categories": [
+			"on_demand",
+			"productivity",
+			"money",
+			"fun"
+		],
+		"tags": [
+			"assistant",
+			"productive",
+			"personal",
+			"apps"
+		]
+	}, {
+		"name": "Sure",
+		"link": "https://m.me/besure.io",
+		"chat_id": "108951326118793",
+		"author": "Sure",
+		"author_link": "http://besure.io/",
+		"description": "Say 'Hi' on Facebook Messenger and instantly find businesses that match your values.",
+		"rating": -1,
+		"categories": [
+			"on_demand",
+			"productivity",
+			"money"
+		],
+		"tags": [
+			"sustainable",
+			"values",
+			"businesses"
+		]
+	}, {
+		"name": "Miss Piggy",
+		"link": "https://m.me/MuppetsMissPiggy",
+		"chat_id": "131857043542156",
+		"author": "the Muppets",
+		"author_link": "https://www.facebook.com/MuppetsMissPiggy/",
+		"description": "Talk to Miss Piggy from the Muppets on Facebook Messenger!",
+		"rating": -1,
+		"categories": [
+			"fun"
+		],
+		"tags": [
+			"Muppets",
+			"funny",
+			"Disney",
+			"unique"
+		]
+	}, {
+		"name": "Zork",
+		"link": "https://m.me/playzork",
+		"chat_id": "1719782408257646",
+		"author": "Zork",
+		"author_link": "https://www.facebook.com/playzork/",
+		"description": "Zork is one of the earliest interactive fiction computer games now on Facebook Messenger!",
+		"rating": -1,
+		"categories": [
+			"fun",
+			"games"
+		],
+		"tags": [
+			"text",
+			"adventure",
+			"game",
+			"retro"
+		]
+	}, {
+		"name": "Detective Kees",
+		"link": "https://m.me/detectivekees",
+		"chat_id": "618001051709790",
+		"author": "Sequel",
+		"author_link": "http://www.onsequel.com",
+		"description": "Assist Detective Kees in solving murders as part of the Criminal Investigation Unit. Message and start chatting!",
+		"rating": -1,
+		"categories": [
+			"games",
+			"fun"
+		],
+		"tags": [
+			"game",
+			"adventure",
+			"crime"
+		]
+	}, {
+		"name": "Hudson",
+		"link": "https://m.me/hudsonapp",
+		"chat_id": "1123710847647047",
+		"author": "Hudson",
+		"author_link": "http://gethudson.com/",
+		"description": "Start the day with an update from Hudson... news, weather, and a video for the commute.",
+		"rating": -1,
+		"categories": [
+			"productivity",
+			"fun",
+			"media"
+		],
+		"tags": [
+			"weather",
+			"update",
+			"news",
+			"video",
+			"day"
+		]
+	}, {
+		"name": "MemeMaker",
+		"link": "http://m.me/471938779682159",
+		"chat_id": "471938779682159",
+		"author": "Harrison Shoebridge",
+		"author_link": "http://harrison.tech",
+		"request_access_link": "https://www.facebook.com/permalink.php?story_fbid=473383312871039&id=471938779682159",
+		"description": "Create awesome macros on the fly, all you need is a picture and a line of text.",
+		"rating": -1,
+		"categories": [
+			"fun",
+			"on_demand"
+		],
+		"tags": [
+			"memes",
+			"funny",
+			"jokes",
+			"gandalf"
+		]
+	}, {
+		"name": "JARVIS on Messenger",
+		"link": "https://m.me/J.A.R.V.I.S.on.Messenger",
+		"chat_id": "J.A.R.V.I.S.on.Messenger",
+		"author": "Swapnil Agarwal",
+		"author_link": "https://www.facebook.com/swap.agarwal",
+		"request_access_link": "https://www.facebook.com/J.A.R.V.I.S.on.Messenger/posts/551338921704902",
+		"description": "Just A Rather Very Intelligent System, now on Messenger! JARVIS is a community-driven bot that aims to be as simple as possible to serve humans with their everyday tasks.",
+		"categories": [
+			"productivity",
+			"on_demand",
+			"fun"
+		],
+		"tags": [
+			"assistant",
+			"helper",
+			"Iron Man"
+		]
+	}, {
+		"name": "Marina Alterra",
+		"link": "https://m/me/1348805941802031",
+		"chat_id": "1348805941802031",
+		"author": "Alterra",
+		"author_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
+		"request_access_link": "https://www.facebook.com/alterra.cc/info/?tab=page_info",
+		"description": "Marina Alterra is a virtual AI travel agent, a messenger bot (powered by algorithms, not humans). It helps travelers to discover where to go on vacation and book hotels there.",
+		"categories": [
+			"productivity",
+			"on_demand"
+		],
+		"tags": [
+			"vacation",
+			"travel",
+			"AI"
+		]
+	}, {
+		"name": "Wally",
+		"link": "http://m.me/wallythebot",
+		"chat_id": "",
+		"author": "Mobile Media LLC",
+		"author_link": "https://wallythebot.com/",
+		"description": "Wally helps you get the most points from the credit cards you already have, and get the ones you need, to travel like a boss.",
+		"categories": [
+			"money"
+		],
+		"tags": [
+			"money",
+			"credit cards",
+			"travel",
+			"award",
+			"flight",
+			"flying",
+			"airlines",
+			"hotels"
+		]
+	}, {
+		"name": "Start A Fire",
+		"link": "https://m.me/StartAFireCom",
+		"author": "Start A Fire",
+		"author_link": "https://www.messenger.com/t/startafirecom/",
+		"description": "Start A Fire help users get value from the links they share. Offering badges that go alongside user content and unique recommendation systems that ensure the content that goes viral is brand-worthy. The tool enables those who share content to get the full value of that shared content.",
+		"categories": [
+			"marketing"
+		],
+		"tags": [
+			"marketing",
+			"content",
+			"contentmarketing",
+			"socialmedia",
+			"share"
+		]
+	}, {
+		"name": "20Bot",
+		"link": "https://m.me/20minutes",
+		"author": "20 Minutes",
+		"author_link": "http://www.20minutes.fr/",
+		"description": "Brings to you top stories, breaking news, etc. on demande. Also send top stories every day at 1pm. It can also reply to some custom request.",
+		"categories": [
+			"media"
+		],
+		"tags": [
+			"media", 
+			"actu"
+		]
+	}, {
+		"name": "DropBot",
+		"link": "http://m.me/550785301770397",
+		"author": "Emmanuel Crouvisier",
+		"author_link": "https://mydropbot.com/",
+		"description": "DropBot gets you the best prices on the things you want by letting you know when to buy.",
+		"categories": [
+			"shopping"
+		],
+		"tags": [
+			"shopping", 
+			"amazon", 
+			"price", 
+			"deal"
+		]
+	}, {
+		"name": "Botsify",
+		"link": "http://m.me/botsifyapp",
+		"author": "Usama Noman",
+		"author_link": "https://www.botsify.com",
+		"description": "Botsify helps you create facebook messenger chatbot for your business/page without any coding.",
+		"categories": [
+			"business"
+		],
+		"tags": [
+			"bot builder", 
+			"messeger",
+			"chatbots for free", 
+			"facebook", 
+			"messenger", 
+			"bots"
+		]
+	}, {
+		"name": "My Playlist Finder",
+		"link": "http://m.me/MyPlaylistFinder",
+		"author": "Matt Shirlaw",
+		"author_link": "http://www.myplaylistfinder.com",
+		"description": "My Playlist Finder is an intelligent messenger bot that uses your personal preferences to find and recommend awesome playlists. Take the hassle out of finding new music and let My Playlist Finder change your day!",
+		"categories": [
+			"productivity"
+		],
+		"tags": [
+			"facebook", 
+			"messenger", 
+			"bot", 
+			"myplaylistfinder", 
+			"playlist", 
+			"spotify",
+			"music"
+		]
+	}]
 }
